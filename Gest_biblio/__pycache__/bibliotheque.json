@@ -1,0 +1,48 @@
+{
+    "livres": [
+      {
+        "id_livre": 1,
+        "titre": "1984",
+        "auteur": "George Orwell",
+        "disponible": true
+      },
+      {
+        "id_livre": 2,
+        "titre": "Paris Ville Lumière",
+        "auteur": "Marie Schoepfer",
+        "disponible": true
+      }
+    ],
+    "utilisateurs": [
+      {
+        "id_utilisateur": 1,
+        "nom": "Dupont",
+        "prenom": "Marie",
+        "limite_prets": 3
+      },
+      {
+        "id_utilisateur": 2,
+        "nom": "Laporte",
+        "prenom": "Jean",
+        "limite_prets": 4
+      }
+    ],
+    "prets": [
+      {
+        "id_pret": 1,
+        "id_utilisateur": 1,
+        "id_livre": 1,
+        "date_emprunt": "2024-10-09T12:00:00Z"
+      }
+    ],
+    "reservations": [
+      {
+        "id_reservation": 1,
+        "id_utilisateur": 2,
+        "id_livre": 1,
+        "date_reservation": "2024-10-09T13:00:00Z",
+        "active": true
+      }
+    ]
+  }
+  
